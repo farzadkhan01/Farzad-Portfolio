@@ -27,6 +27,10 @@
     transition: fill 0.3s ease;
 }
 
+.transition {
+    transition: var(--transition);
+}
+
 .my-svg:hover {
     fill: #e07a5f;
     /* Terracotta */

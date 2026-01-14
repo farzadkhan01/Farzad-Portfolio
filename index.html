@@ -21,12 +21,16 @@
 
     <!-- Css -->
     <link rel="stylesheet" href="assets/styleSheet/style.css">
+    <link rel="stylesheet" href="assets/Media/common-media.css">
     <link rel="stylesheet" href="assets/Media/home-media.css">
 
     <!-- Bootstrap Script -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <!-- custom JS -->
+    <script src="assets/JS/common.js"></script>
 
 </head>
 
@@ -71,42 +75,111 @@
         </nav>
 
         <!-- navbar -->
-        <nav id="navbar" class=" d-md-none">
+        <!-- <nav id="navbar" class="navbar-fixing active transition d-md-none"> -->
+        <nav id="navbar" class="navbar-fixing transition d-md-none">
             <div class="container">
 
-                <div class="row align-items-center py-4">
+                <div class="row transition align-items-center">
 
-                    <div class="col">
+                    <div class="col transition">
                         <div class="nav-logo">
                             <a href="#">Farzad Khan</a>
                         </div>
                     </div>
 
-                    <!-- <div class="col">
-                        <div class="nav-pages">
-                            <ul class="d-flex align-items-center gap-3 gap-lg-4">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Works</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div> -->
+                    <div class="col transition d-flex justify-content-end ">
 
-                    <div class="col text-end">
-                        <a href="#" class="nav-btn">
-                            Hire Me
-                            <i class="ri-shake-hands-line"></i>
-                        </a>
+                        <!-- <button id="toggle" class="toggle-btn active "> -->
+                        <button id="toggle" class="toggle-btn">
+                            <div class="bar bar1"></div>
+                            <div class="bar bar2"></div>
+                            <div class="bar bar3"></div>
+                            <div class="bar bar4"></div>
+                        </button>
+
                     </div>
+                </div>
+
+                <!-- <div class="toggle-content active"> -->
+                <div class="toggle-content transition">
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <h4>Home</h4>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h4>About</h4>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </li>
+                        <li class="sub-dropdown">
+                            <a href="#">
+                                <h4>Services</h4>
+                                <!-- <i class="ri-arrow-down-s-line dropdown-icon-small active"></i> -->
+                                <i class="ri-arrow-down-s-line transition dropdown-icon-small"></i>
+                            </a>
+
+                            <!-- <div class="subdropdonw-content active"> -->
+                            <div class="subdropdown-content transition">
+                                <ul class="px-3 pt-3">
+                                    <li>
+                                        <a href="#">
+                                            <h4>Sub Dropdown 1</h4>
+                                            <i class="ri-arrow-right-s-line"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h4>Sub Dropdown 1</h4>
+                                            <i class="ri-arrow-right-s-line"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h4>Sub Dropdown 1</h4>
+                                            <i class="ri-arrow-right-s-line"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h4>Sub Dropdown 1</h4>
+                                            <i class="ri-arrow-right-s-line"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h4>Work</h4>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h4>Blog</h4>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h4>Contact</h4>
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
 
             </div>
 
         </nav>
-
+        <div class="spacing transition"></div>
         <!-- Hero Section -->
         <section id="heroSection" class=" hero-alignments">
             <div class="row row-gap-4">
