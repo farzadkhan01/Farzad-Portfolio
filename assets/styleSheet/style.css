@@ -19,8 +19,32 @@
 
 .hero-name h1 {
     font-size: 48px;
-    margin: 60px 0 8px 0;
+    margin-bottom: 8px;
     font-weight: 600;
+}
+
+.hero-name a {
+    --icon-width: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--icon-width);
+    height: var(--icon-width);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-10);
+    transition: var(--transition);
+}
+
+.hero-name i {
+    font-size: 24px;
+    transition: var(--transition);
+}
+
+.hero-name a:hover,
+.hero-name a:hover i {
+    color: var(--accent-10);
+    border-color: var(--accent-10);
 }
 
 .hero-right {
