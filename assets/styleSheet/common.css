@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-60: #ECF3F1;
+    --secondary-30: #fff;
+    --accent-10: #448C74;
+    --border-10: 10px;
+    --border-20: 20px;
+    --subtitle-color: #444;
+    --card-padding: 40px;
+    --border-color: rgba(119, 119, 125, .2);
+    --buttons-padding: 12px 24px;
+    --transition: all 0.3s;
+    --popins: "Poppins", sans-serif;
+}
+
+.my-svg {
+    width: 50px;
+    /* Set the default color for your STORI brand */
+    fill: #008080;
+    /* Deep Teal */
+    transition: fill 0.3s ease;
+}
+
+.transition {
+    transition: var(--transition);
+}
+
+.my-svg:hover {
+    fill: #e07a5f;
+    /* Terracotta */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--primary-60);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+/* Custom Reserved Classes */
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.section-title p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: var(--subtitle-color);
+    padding: 0px 300px;
+}
+
+
+.section-card {
+    background-color: white;
+    border-radius: var(--border-20);
+    padding: var(--card-padding);
+    text-align: center;
+    height: 100%;
+}
+
+/* ===================================== */
+/* Navbar */
+.nav-logo a {
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.nav-pages a {
+    font-size: 16px;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.nav-pages a:hover {
+    color: var(--accent-10);
+}
+
+.nav-btn {
+    display: inline-block;
+    width: max-content;
+    padding: var(--buttons-padding);
+    border: 1px solid black;
+    border-radius: var(--border-10);
+    font-weight: 500;
+    font-size: 14px;
+    transition: var(--transition);
+}
+
+.nav-btn:hover {
+    color: white;
+    background-color: var(--accent-10);
+    border-color: var(--accent-10);
+}
+
+/* Navbar Fixing  */
+.large-navbar {
+    padding: 35px 0;
+
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-60);
+}
+
+.large-navbar.active {
+    padding: 0;
+}
+
+.large-navbar.active .row.align-items-center {
+    border-bottom: 1px solid var(--border-color);
+    padding: 20px 0;
+}
+
+.spacing {
+    height: 120px;
+}
+
+.spacing.active {
+    height: 90px;
+}

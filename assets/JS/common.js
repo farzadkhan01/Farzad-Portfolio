@@ -32,19 +32,21 @@ class commonFunctionality {
     #navbar() {
         const space = document.querySelector('.spacing');
         const navbar = document.querySelector('.navbar-fixing');
+        const largeNavbar = document.querySelector('.large-navbar');
 
         window.addEventListener('scroll', () => {
 
             if (window.scrollY > 30) {
                 space.classList.add('active');
                 navbar.classList.add('active');
+                largeNavbar.classList.add('active');
             } else {
                 space.classList.remove('active');
                 navbar.classList.remove('active');
+                largeNavbar.classList.remove('active');
             }
 
         });
-
     }
 
     #init() {
