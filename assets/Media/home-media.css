@@ -1,0 +1,156 @@
+@media screen and (max-width: 1200px) {
+    :root {
+        --card-padding: 30px;
+    }
+
+    .hero-name h1 {
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    :root {
+        --buttons-padding: 6px 12px;
+    }
+
+    .section-title p {
+        padding: 0;
+    }
+
+    .nav-logo a {
+        font-size: 18px;
+    }
+
+    .hero-name h1 {
+        margin-top: 0;
+    }
+
+    .experience-text br {
+        display: none;
+    }
+
+    .language-details {
+        padding: 20px 15px;
+    }
+
+    .form-left {
+        height: 100%;
+        padding: 30px;
+    }
+
+    .cta-content br {
+        display: none;
+    }
+
+    .cta-content p {
+        padding: 0;
+    }
+
+    #copyright p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experties-card {
+        padding: 30px 20px;
+    }
+
+    .experience-text br {
+        display: block;
+    }
+
+    .hero-card img {
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .section-title h2 {
+        font-size: 36px;
+    }
+
+    .section-title p {
+        margin-bottom: 4px;
+        font-size: 14px;
+    }
+
+    .hero-name h1 {
+        font-size: 36px;
+    }
+
+    .hero-information h1 {
+        font-size: 36px;
+    }
+
+    .experties-card h3 {
+        margin: 10px 0;
+    }
+
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-ref a {
+        margin: 0;
+    }
+
+    .info-title h2 {
+        text-align: center;
+    }
+
+    .language-details img {
+        width: 5rem;
+    }
+
+    .cta-content h1 {
+        font-size: 26px;
+    }
+
+    .cta-content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    :root {
+        --card-padding: 20px;
+    }
+
+    .hero-information h1 {
+        font-size: 28px;
+    }
+
+    .hero-name h1 {
+        font-size: 28px;
+    }
+
+    .section-title h2 {
+        font-size: 27px;
+    }
+
+    .project-img {
+        height: auto;
+    }
+
+    .form-left {
+        padding: 20px;
+    }
+
+    .form-ref a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .form-ref h5 {
+        font-size: 16px;
+    }
+
+    #copyright p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
