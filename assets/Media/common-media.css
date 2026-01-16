@@ -4,6 +4,9 @@
         font-size: 18px;
     }
 
+    .section-title p {
+        padding: 0;
+    }
 
     .cta-content p {
         padding: 0;
@@ -25,6 +28,10 @@
         --buttons-padding: 12px 24px;
         --transition: all 0.3s;
         --popins: "Poppins", sans-serif;
+    }
+
+    .experties-card {
+        padding: 30px 20px;
     }
 
     .spacing {
@@ -224,6 +231,11 @@
     .section-title p {
         margin-bottom: 4px;
         font-size: 14px;
+    }
+
+
+    .experties-card h3 {
+        margin: 10px 0;
     }
 
     .cta-content p {

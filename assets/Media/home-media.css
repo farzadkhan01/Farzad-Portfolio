@@ -13,10 +13,6 @@
         --buttons-padding: 6px 12px;
     }
 
-    .section-title p {
-        padding: 0;
-    }
-
     .hero-name h1 {
         margin-top: 0;
     }
@@ -44,9 +40,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .experties-card {
-        padding: 30px 20px;
-    }
 
     .experience-text br {
         display: block;
@@ -68,9 +61,6 @@
         font-size: 36px;
     }
 
-    .experties-card h3 {
-        margin: 10px 0;
-    }
 
     .experience-card {
         flex-direction: column;

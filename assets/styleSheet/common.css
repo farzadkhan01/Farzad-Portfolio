@@ -162,11 +162,11 @@ button {
 }
 
 .spacing {
-    height: 120px;
+    padding: 60px;
 }
 
 .spacing.active {
-    height: 90px;
+    padding: 60px;
 }
 
 
@@ -211,6 +211,30 @@ button {
     background-color: black;
     border-color: black;
 }
+
+/* ===================================== */
+/* Specialization */
+.experties-card {
+    height: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 60px 40px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.experties-card i {
+    font-size: 60px;
+    color: var(--accent-10);
+}
+
+.experties-card h3 {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
 
 
 

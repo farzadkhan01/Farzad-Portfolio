@@ -1,0 +1,28 @@
+.service-hero-text h1 {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.service-hero-text h1 span {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+}
+
+.service-hero-text p {
+    font-size: 18px;
+}
+
+.service-hero-img {
+    height: 30rem;
+    border-radius: var(--border-20);
+    overflow: hidden;
+}
+
+.service-hero-img img {
+    object-fit: cover;
+    padding: 10px;
+    border: 3px dashed var(--accent-10);
+    border-radius: var(--border-20);
+}
