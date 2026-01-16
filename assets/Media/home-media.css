@@ -17,10 +17,6 @@
         padding: 0;
     }
 
-    .nav-logo a {
-        font-size: 18px;
-    }
-
     .hero-name h1 {
         margin-top: 0;
     }
@@ -40,10 +36,6 @@
 
     .cta-content br {
         display: none;
-    }
-
-    .cta-content p {
-        padding: 0;
     }
 
     #copyright p {
@@ -67,14 +59,6 @@
 }
 
 @media screen and (max-width: 576px) {
-    .section-title h2 {
-        font-size: 36px;
-    }
-
-    .section-title p {
-        margin-bottom: 4px;
-        font-size: 14px;
-    }
 
     .hero-name h1 {
         font-size: 36px;
@@ -105,13 +89,7 @@
         width: 5rem;
     }
 
-    .cta-content h1 {
-        font-size: 26px;
-    }
 
-    .cta-content p {
-        font-size: 14px;
-    }
 }
 
 @media screen and (max-width: 425px) {
@@ -149,8 +127,4 @@
         font-size: 16px;
     }
 
-    #copyright p {
-        font-size: 14px;
-        text-align: center;
-    }
 }

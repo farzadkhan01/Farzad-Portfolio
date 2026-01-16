@@ -97,13 +97,11 @@ button {
     padding: 0px 300px;
 }
 
-
 .section-card {
     background-color: white;
     border-radius: var(--border-20);
     padding: var(--card-padding);
     text-align: center;
-    height: 100%;
 }
 
 /* ===================================== */
@@ -169,4 +167,87 @@ button {
 
 .spacing.active {
     height: 90px;
+}
+
+
+.hero-field a {
+    --icon-width: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--icon-width);
+    height: var(--icon-width);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-10);
+    transition: var(--transition);
+}
+
+.hero-field i {
+    font-size: 24px;
+    transition: var(--transition);
+}
+
+.hero-field a:hover,
+.hero-field a:hover i {
+    color: var(--accent-10);
+    border-color: var(--accent-10);
+}
+
+
+.cta-link {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 14px;
+    color: white;
+    padding: var(--buttons-padding);
+    background-color: var(--accent-10);
+    border-radius: var(--border-10);
+    border: 1px solid var(--accent-10);
+    transition: var(--transition);
+}
+
+.cta-link:hover {
+    background-color: black;
+    border-color: black;
+}
+
+
+
+
+
+/* ===================================== */
+/* CTA */
+.cta-content p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 80px;
+}
+
+.cta-content h1 span {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+}
+
+.cta-content a {
+    display: inline-block;
+    background-color: var(--accent-10);
+    color: white;
+    border: 2px solid var(--accent-10);
+    font-weight: 600;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: var(--border-10);
+    transition: var(--transition);
+}
+
+.cta-content a:hover {
+    background-color: white;
+    color: var(--subtitle-color);
+}
+
+/* ===================================== */
+/* Copyright */
+#copyright p span {
+    color: var(--accent-10);
 }

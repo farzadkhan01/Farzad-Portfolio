@@ -1,0 +1,78 @@
+:root {
+    --primary-60: #ECF3F1;
+    --secondary-30: #fff;
+    --accent-10: #448C74;
+    --border-10: 10px;
+    --border-20: 20px;
+    --subtitle-color: #444;
+    --card-padding: 40px;
+    --border-color: rgba(119, 119, 125, .2);
+    --buttons-padding: 12px 24px;
+    --transition: all 0.3s;
+    --popins: "Poppins", sans-serif;
+}
+
+
+/* Hero Section */
+.hero-img,
+.hero-name,
+.hero-field,
+.hero-name-field {
+    height: 70vh;
+}
+
+.hero-img img {
+
+    object-fit: contain;
+}
+
+.hero-img,
+.hero-img img {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-img::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    border-radius: 30%;
+    background-color: var(--accent-10);
+    opacity: 0.3;
+    border: 10px solid white;
+    box-shadow: 10px 10px #448C74;
+}
+
+.hero-name-field h3 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.hero-name-field h3 span {
+    -webkit-text-stroke: 1.5px black;
+    color: transparent;
+}
+
+.hero-name-field .ri-circle-fill {
+    color: var(--accent-10);
+    margin-right: 15px;
+}
+
+.hero-tag {
+    font-size: 18px;
+}
+
+.hero-field i {
+    font-size: 24px;
+}
+
+.about-hero-btn a {
+    margin-top: 15px;
+    margin-left: 30px;
+}
