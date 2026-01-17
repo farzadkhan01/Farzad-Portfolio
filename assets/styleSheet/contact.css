@@ -1,0 +1,60 @@
+.hero-img img {
+    border-radius: var(--border-20);
+}
+
+.contact-hero-text h1 span {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.contact-hero-text h3 {
+    margin: 3rem 0 1rem 0;
+}
+
+.contact-hero-text ul {
+    margin-top: 2rem;
+}
+
+.contact-hero-text ul li {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.contact-hero-text ul i {
+    color: var(--accent-10);
+    font-weight: 600;
+
+}
+
+.contact-hero-text ul p span {
+    font-weight: 600;
+}
+
+.hero-name-field {
+    margin-top: 2rem;
+}
+
+.hero-name-field .ri-circle-fill {
+    color: var(--accent-10);
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .hero-img {
+        height: 30rem;
+    }
+
+    .hero-img img {
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero-img {
+        height: 100%;
+    }
+}
