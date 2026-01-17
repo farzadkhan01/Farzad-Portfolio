@@ -36,8 +36,6 @@
     margin-bottom: 10px;
 }
 
-.service-card p {}
-
 .service-card h3 {
     font-size: 20px;
     font-weight: 600;
@@ -54,17 +52,25 @@
     margin: 10px 0;
 }
 
-.service-card p {}
-
 .service-card p span {
     font-weight: 600;
-}
-
-.service-img {
-    /* height: 40rem; */
 }
 
 .service-img img {
     object-fit: cover;
     border-radius: var(--border-20);
+}
+
+/* Services skills */
+.steps i {
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--accent-10);
+}
+
+.steps h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--subtitle-color);
+    margin: 20px 0;
 }
