@@ -26,3 +26,45 @@
     border: 3px dashed var(--accent-10);
     border-radius: var(--border-20);
 }
+
+/* Services-details */
+.service-card {}
+
+.service-card h2 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.service-card p {}
+
+.service-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.service-card ul {
+    list-style-type: disc;
+    padding-left: 2rem
+}
+
+.service-card li {
+    margin: 10px 0;
+}
+
+.service-card p {}
+
+.service-card p span {
+    font-weight: 600;
+}
+
+.service-img {
+    /* height: 40rem; */
+}
+
+.service-img img {
+    object-fit: cover;
+    border-radius: var(--border-20);
+}

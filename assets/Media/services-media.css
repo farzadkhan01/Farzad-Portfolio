@@ -9,8 +9,17 @@
 }
 
 @media screen and (max-width: 992px) {
+
     .service-hero-img {
         height: 30rem;
+    }
+
+    .service-img {
+        height: 30rem !important;
+    }
+
+    .separate-img {
+        height: 100% !important;
     }
 }
 
@@ -31,5 +40,11 @@
 
     .service-hero-img {
         height: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .service-img {
+        height: 100% !important;
     }
 }
