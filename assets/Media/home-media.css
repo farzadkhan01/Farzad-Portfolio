@@ -67,10 +67,6 @@
         text-align: center;
     }
 
-    .form-ref a {
-        margin: 0;
-    }
-
     .info-title h2 {
         text-align: center;
     }
@@ -78,7 +74,6 @@
     .language-details img {
         width: 5rem;
     }
-
 
 }
 
@@ -106,11 +101,6 @@
 
     .form-left {
         padding: 20px;
-    }
-
-    .form-ref a {
-        margin: 0;
-        font-size: 14px;
     }
 
     .form-ref h5 {
