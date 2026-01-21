@@ -1,0 +1,93 @@
+.project-text h1 {
+    font-weight: 700;
+}
+
+.project-text h1 span {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+}
+
+.project-text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+}
+
+.project-text ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    margin-top: 100px;
+
+}
+
+.project-text i {
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-text h5 i {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    color: var(--accent-10);
+}
+
+/* Tabs */
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-color: transparent;
+    color: var(--accent-10);
+
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+    color: var(--accent-10);
+}
+
+.nav-link {
+    color: black;
+}
+
+/* Tabs Content */
+
+.tab-img img {
+    height: 17rem;
+    object-fit: cover;
+
+}
+
+.tab-context {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-20);
+    overflow: hidden;
+    height: 100%;
+}
+
+.tab-text {
+    padding: 20px;
+}
+
+.tab-text h2 {
+    font-size: 26px;
+}
+
+.tab-text p {}
+
+.tab-text a i {}

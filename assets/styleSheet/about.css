@@ -40,7 +40,7 @@
 }
 
 .hero-name-field h3 span {
-    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 1px black;
     color: transparent;
 }
 
