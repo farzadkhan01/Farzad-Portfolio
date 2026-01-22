@@ -7,12 +7,6 @@ class commonFunctionality {
         const btn = document.getElementById('toggle');
         const bars = document.querySelectorAll('.bar');
         const toggleContent = document.querySelector('.toggle-content');
-        const subDropdownIcon = document.querySelector('.dropdown-icon-small');
-        const subdropdownContent = document.querySelector('.subdropdown-content');
-
-        const toggling = eventOn => {
-            eventOn.classList.toggle('active');
-        };
 
         // navbar toggle button click
         btn.addEventListener('click', function () {
@@ -21,12 +15,26 @@ class commonFunctionality {
             });
             toggling(toggleContent);
         });
+    }
 
-        // sub toggle contect of services button click
-        subDropdownIcon.addEventListener('click', () => {
-            toggling(subDropdownIcon);
-            toggling(subdropdownContent);
+    #projectLink() {
+        const projectImage = document.querySelectorAll('.project-img');
+
+        projectImage.forEach(imageEl => {
+            imageEl.addEventListener('mouseenter', () => {
+                const image = imageEl.closest('div');
+                image.classList.add('show');
+            });
         });
+
+        projectImage.forEach(imageEl => {
+            imageEl.addEventListener('mouseleave', () => {
+                const image = imageEl.closest('div');
+                image.classList.remove('show');
+            });
+        });
+
+
     }
 
     #navbar() {
@@ -53,6 +61,7 @@ class commonFunctionality {
         window.addEventListener('DOMContentLoaded', () => {
             this.#toggle();
             this.#navbar();
+            this.#projectLink();
         });
     }
 }

@@ -193,16 +193,12 @@
 .project-img {
     overflow: hidden;
     height: 17rem;
+    position: relative;
 }
 
 .project-img img {
-    transform: scale(1);
     transition: var(--transition);
     cursor: pointer;
-}
-
-.project-img img:hover {
-    transform: scale(1.2);
 }
 
 .project-text {
@@ -216,9 +212,56 @@
     color: var(--subtitle-color);
     margin-bottom: 10px;
     display: inline-block;
+    transition: all 0.3s;
+}
+
+.project-text h3 a:hover {
+    color: var(--accent-10);
 }
 
 .project-text h3 a i {
     font-size: 18px;
     font-weight: 400;
+}
+
+.project-img .fixed-icon {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.project-img.show .fixed-icon {
+    opacity: 1;
+    z-index: 2;
+}
+
+.project-img.show .fixed-icon a {
+    --a-width: 4rem;
+}
+
+.project-img .fixed-icon a {
+    --a-width: 0rem;
+    width: var(--a-width);
+    height: var(--a-width);
+    background-color: var(--accent-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.project-img .fixed-icon i {
+    color: white;
+    font-size: 28px;
 }
