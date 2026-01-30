@@ -139,6 +139,11 @@ button {
     border-color: var(--accent-10);
 }
 
+nav ul li .active h4,
+nav ul li .active {
+    color: var(--accent-10);
+}
+
 /* Navbar Fixing  */
 .large-navbar {
     padding: 35px 0;

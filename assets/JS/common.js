@@ -8,6 +8,10 @@ class commonFunctionality {
         const bars = document.querySelectorAll('.bar');
         const toggleContent = document.querySelector('.toggle-content');
 
+        const toggling = function (elements) {
+            elements.classList.toggle('active');
+        };
+
         // navbar toggle button click
         btn.addEventListener('click', function () {
             bars.forEach(bar => {
