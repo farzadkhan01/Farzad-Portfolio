@@ -62,11 +62,9 @@ class commonFunctionality {
     }
 
     #init() {
-        window.addEventListener('DOMContentLoaded', () => {
-            this.#toggle();
-            this.#navbar();
-            this.#projectLink();
-        });
+        this.#toggle();
+        this.#navbar();
+        this.#projectLink();
     }
 }
 const features = new commonFunctionality();
